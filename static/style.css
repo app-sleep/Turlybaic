@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/*              FONTS              */
+
+/* inter-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../static/fonts/inter-v12-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../static/fonts/inter-v12-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../static/fonts/inter-v12-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* hind-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../static/fonts/hind-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hind-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../static/fonts/hind-v16-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/*         font end             */
+
+
+body{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.wrapper{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* SIDE___BAR   START */
+.header_wrapper{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding-top: 45px;
+}
+
+.profile{
+  margin-left: 295px;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.profile_link{
+  display: flex;
+  flex-wrap: wrap;
+  color: #000000;
+  align-items: center;
+}
+
+.profile_info{
+  max-width: 45px;
+  max-height: 25px;
+}
+
+.profile img{
+  margin-left: 15px;
+}
+
+.status{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.side_bar-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.side_bar-item{
+  margin-right: 55px;
+}
+.side_bar-item:last-child{
+  margin-right: 170px;
+}
+.side_bar-link{
+  color: #000000;
+}
+.side_bar-text{
+  padding-bottom: 10px;
+}
+.ico{
+  vertical-align: middle;
+}
+/* SIDE___BAR   END */
+
+
+
+/* INTRO   START */
+.intro{
+  padding-top: 230px;
+}
+.title{
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+}
+.sub_title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.06em;
+}
